@@ -1,0 +1,37 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Temporary and virtual environment files
+.env
+.venv/
+env/
+venv/
+*.log
+logs/
+temp_debug/
+scratch/
+output/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Independent projects (if inside directory)
+shughlak-backend/
+shughlak-frontend/
+
+# Data and large files (لا ترفع ملفات العملاء أو ملفات إكسيل الضخمة على جيت هاب)
+*.xlsx
+*.xls
+*.csv
+*.pdf
+~$*.xlsx
+*.txt
+!requirements.txt
+!columns.txt
+
+# Batch scripts with local paths
+*.bat
